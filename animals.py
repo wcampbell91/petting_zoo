@@ -15,11 +15,11 @@ from platypus import Platypus
 from rattle_snake import Rattle_Snake
 from viper import Viper
 
-fuzzy = Llama("fuzzy", "Classic Llama")
-burro = Donkey("burro", "Amiatina")
-lil_sebastian = Mini_Horse("lil' Sebastian", "Noma Pony")
-billy = Goat("Billy", "Mountain Goat")
-joe = Gorilla("joe", "Silverback")
+fuzzy = Llama("fuzzy", "Classic Llama", "morning")
+burro = Donkey("burro", "Amiatina", "midday")
+lil_sebastian = Mini_Horse("lil' Sebastian", "Noma Pony", "night")
+billy = Goat("Billy", "Mountain Goat", "morning")
+joe = Gorilla("joe", "Silverback", "midday")
 slippy = Copperhead("Slippy", "Copperhead")
 sloppy = Cobra("Sloppy", "King Cobra")
 slinky = Anaconda("Slinky", "Anaconda")
@@ -30,4 +30,4 @@ bob = Perch("Bob", "Eurasian Perch")
 gene = Bass("Gene", "White Bass")
 jaws = Great_White("Jaws", "Great White")
 bill = Platypus("Bill", "Duck-billed Platypus")
-print(bill)
+print(f"{joe.name} is a {joe.species} and is on the {joe.shift} shift!")
