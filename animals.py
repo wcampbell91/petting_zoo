@@ -10,54 +10,24 @@ from great_white import Great_White
 from llama import Llama
 from mini_horse import Mini_Horse
 from perch import Perch
+from piranha import Piranha
 from platypus import Platypus
 from rattle_snake import Rattle_Snake
 from viper import Viper
 
-fuzzy = Llama()
-fuzzy.name = "Fuzzy"
-
-burro = Donkey()
-burro.name = "Burro"
-
-lil_sebastian = Mini_Horse()
-lil_sebastian.name = "Lil' Sebastian"
-
-billy = Goat()
-billy.name = "Billy"
-
-joe = Gorilla()
-joe.name = "joe"
-
-slippy = Copperhead()
-slippy.name = "Slippy"
-
-sloppy = Cobra()
-sloppy.name = "Sloppy"
-
-slinky = Anaconda()
-slinky.name = "Slinky"
-
-sleuthy = Viper()
-sleuthy.name = "sleuthy"
-
-sneaky = Rattle_Snake()
-sneaky.name = "Sneaky"
-
-charles = Piranha()
-charles.name = "Charles"
-
-bob = Perch()
-bob.name = "Bob"
-
-gene = Bass()
-gene.name = "Gene"
-
-jaws = Great_White()
-jaws.name = "Jaws"
-
-bill = Platypus()
-bill.name = "Bill"
-
+fuzzy = Llama("fuzzy", "Classic Llama")
+burro = Donkey("burro", "Amiatina")
+lil_sebastian = Mini_Horse("lil' Sebastian", "Noma Pony")
+billy = Goat("Billy", "Mountain Goat")
+joe = Gorilla("joe", "Silverback")
+slippy = Copperhead("Slippy", "Copperhead")
+sloppy = Cobra("Sloppy", "King Cobra")
+slinky = Anaconda("Slinky", "Anaconda")
+sleuthy = Viper("Sleuthy", "Russell's Viper")
+sneaky = Rattle_Snake("Sneaky", "Rattle Snake")
+charles = Piranha("Charles", "Red-bellied Piranha")
+bob = Perch("Bob", "Eurasian Perch")
+gene = Bass("Gene", "White Bass")
+jaws = Great_White("Jaws", "Great White")
+bill = Platypus("Bill", "Duck-billed Platypus")
 print(bill)
-d
