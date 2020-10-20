@@ -31,4 +31,4 @@ gene = Bass("Gene", "White Bass", "fish food")
 jaws = Great_White("Jaws", "Great White", "innocent swimmers")
 bill = Platypus("Bill", "Duck-billed Platypus", "snickers bars")
 
-print(fuzzy)
+print(bill)
