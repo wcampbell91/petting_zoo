@@ -1,23 +1,5 @@
-from datetime import date
-from anaconda import Anaconda
-from bass import Bass
-from cobra import Cobra
-from copperhead import Copperhead
-from donkey import Donkey
-from goat import Goat
-from gorilla import Gorilla
-from great_white import Great_White
-from llama import Llama
-from mini_horse import Mini_Horse
-from perch import Perch
-from piranha import Piranha
-from platypus import Platypus
-from rattle_snake import Rattle_Snake
-from viper import Viper
-from attractions.PettingZoo import PettingZoo
-from attractions.SnakePit import SnakePit
-from attractions.Wetlands import Wetlands
-
+from animals import Anaconda, Bass, Cobra, Copperhead, Donkey, Goat, Gorilla, Great_White, Llama, Mini_Horse, Perch, Piranha, Platypus, Rattle_Snake, Viper
+from attractions import PettingZoo, SnakePit, Wetlands
 
 fuzzy = Llama("fuzzy", "Classic Llama", "morning", "llama food")
 burro = Donkey("burro", "Amiatina", "midday", "donkey food")
@@ -34,26 +16,6 @@ bob = Perch("Bob", "Eurasian Perch", "fish food")
 gene = Bass("Gene", "White Bass", "fish food")
 jaws = Great_White("Jaws", "Great White", "innocent swimmers")
 bill = Platypus("Bill", "Duck-billed Platypus", "snickers bars")
-
-print('*************')
-
-# PettingZoo.add_animal(fuzzy)
-# PettingZoo.add_animal(burro)
-# PettingZoo.add_animal(lil_sebastian)
-# PettingZoo.add_animal(billy)
-# PettingZoo.add_animal(joe)
-
-# SnakePit.add_animal(slippy)
-# SnakePit.add_animal(sloppy)
-# SnakePit.add_animal(slinky)
-# SnakePit.add_animal(sleuthy)
-# SnakePit.add_animal(sneaky)
-
-# Wetlands.add_animal(charles)
-# Wetlands.add_animal(bob)
-# Wetlands.add_animal(gene)
-# Wetlands.add_animal(jaws)
-# Wetlands.add_animal(bill)
 
 varmint_village = PettingZoo("Varmint Village", "Here at Varmint Village you'll pet the world")
 rascal_lake = Wetlands("Rascal Lake", "Swim with the fishes, and be alive!")
