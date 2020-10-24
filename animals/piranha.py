@@ -1,7 +1,8 @@
+from movements.swimming import Swimming
 from animals.animals import Animal
 from datetime import date
 
-class Piranha(Animal):
+class Piranha(Animal, Swimming):
     def __init__(self, name, species, food, chip_num):
-        super().__init__(name, species, food, chip_num)
-        self.swimming = True
+        Animal.__init__(self, name, species, food, chip_num)
+        Swimming.__init__(self)
