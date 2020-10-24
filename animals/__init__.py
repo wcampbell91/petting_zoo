@@ -13,3 +13,4 @@ from .piranha import Piranha
 from .platypus import Platypus
 from .rattle_snake import Rattle_Snake
 from .viper import Viper
+from .animals import Animal
