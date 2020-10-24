@@ -49,9 +49,7 @@ rascal_lake.add_animal(bill)
 
 # print('***********')
 
-# for animal in rascal_lake.animals:
-#     print(f"You'll find {animal.name}, the {animal.species} in {rascal_lake.attraction_name}")
+for animal in rascal_lake.animals:
+    print(animal)
 
-# print(charles.chip_num)
-for animal in varmint_village.animals:
-    print(f"{animal.name} is in here!")
+# print(bob)
