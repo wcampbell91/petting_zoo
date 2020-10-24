@@ -1,15 +1,8 @@
+from animals.animals import Animal
+from animals.anaconda import Anaconda
 from datetime import date
 
-class Rattle_Snake:
-    def __init__(self, name, species, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Rattle_Snake(Animal):
+    def __init__(self, name, species, food, chip_num):
+        super().__init__(name, species, food, chip_num)
         self.slithering = True
-        self.food = food
-
-    def feed(self):
-        print(f"{self.name} was fed {self.food} on {date.today().strftime('%m/%d/%Y')}")
-
-    def __repr__(self): 
-        print(f"{self.name} is a {self.species} and was added to the zoo on {self.date_added}")
