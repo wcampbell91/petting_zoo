@@ -11,11 +11,11 @@ sloppy = Cobra("Sloppy", "King Cobra", "mouse")
 slinky = Anaconda("Slinky", "Anaconda", "Mouse")
 sleuthy = Viper("Sleuthy", "Russell's Viper", "mouse")
 sneaky = Rattle_Snake("Sneaky", "Rattle Snake", "mouse")
-charles = Piranha("Charles", "Red-bellied Piranha", "fingers")
-bob = Perch("Bob", "Eurasian Perch", "fish food")
-gene = Bass("Gene", "White Bass", "fish food")
-jaws = Great_White("Jaws", "Great White", "innocent swimmers")
-bill = Platypus("Bill", "Duck-billed Platypus", "snickers bars")
+charles = Piranha("Charles", "Red-bellied Piranha", "fingers", 64654984)
+bob = Perch("Bob", "Eurasian Perch", "fish food", 341586)
+gene = Bass("Gene", "White Bass", "fish food", 1654958)
+jaws = Great_White("Jaws", "Great White", "innocent swimmers", 9879321)
+bill = Platypus("Bill", "Duck-billed Platypus", "snickers bars", 13216848)
 
 varmint_village = PettingZoo("Varmint Village", "Here at Varmint Village you'll pet the world")
 rascal_lake = Wetlands("Rascal Lake", "Swim with the fishes, and be alive!")
@@ -39,15 +39,20 @@ rascal_lake.add_animal(gene)
 rascal_lake.add_animal(jaws)
 rascal_lake.add_animal(bill)
 
-for animal in varmint_village.animals:
-    print(f"You'll find {animal.name}, the {animal.species} in {varmint_village.attraction_name}")
+# for animal in varmint_village.animals:
+#     print(f"You'll find {animal.name}, the {animal.species} in {varmint_village.attraction_name}")
 
-print('***********')
+# print('***********')
 
-for animal in slithery_sleuths.animals:
-    print(f"You'll find {animal.name}, the {animal.species} in {slithery_sleuths.attraction_name}")
+# for animal in slithery_sleuths.animals:
+#     print(f"You'll find {animal.name}, the {animal.species} in {slithery_sleuths.attraction_name}")
 
-print('***********')
+# print('***********')
 
-for animal in rascal_lake.animals:
-    print(f"You'll find {animal.name}, the {animal.species} in {rascal_lake.attraction_name}")
+# for animal in rascal_lake.animals:
+#     print(f"You'll find {animal.name}, the {animal.species} in {rascal_lake.attraction_name}")
+
+# print(charles.chip_num)
+print(varmint_village.last_animal_added)
+print(slithery_sleuths.last_animal_added)
+print(rascal_lake.last_animal_added)

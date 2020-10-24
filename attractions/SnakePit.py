@@ -6,3 +6,7 @@ class SnakePit:
 
     def add_animal(self, animal):
         self.animals.append(animal)
+
+    @property
+    def last_animal_added(self):
+        return f"{self.animals[-1].name} was the last animal added"
