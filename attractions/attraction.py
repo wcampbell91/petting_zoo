@@ -3,9 +3,6 @@ class Attraction:
         self.attraction_name = attraction_name
         self.description = description
         self.animals = list()
-
-    def add_animal(self, animal):
-        self.animals.append(animal)
     
     def remove_animal(self, animal):
         self.animals.remove(animal)
