@@ -21,26 +21,28 @@ varmint_village = PettingZoo("Varmint Village", "Here at Varmint Village you'll 
 rascal_lake = Wetlands("Rascal Lake", "Swim with the fishes, and be alive!")
 slithery_sleuths = SnakePit("Slithery Sleuths", "Nobody told you there'd be snakes")
 
-varmint_village.add_animal(fuzzy)
-varmint_village.add_animal(burro)
-varmint_village.add_animal(lil_sebastian)
-varmint_village.add_animal(billy)
-varmint_village.add_animal(joe)
-
-slithery_sleuths.add_animal(slippy)
-slithery_sleuths.add_animal(sloppy)
-slithery_sleuths.add_animal(slinky)
-slithery_sleuths.add_animal(sleuthy)
-slithery_sleuths.add_animal(sneaky)
-
-rascal_lake.add_animal(charles)
 rascal_lake.add_animal(bob)
-rascal_lake.add_animal(gene)
-rascal_lake.add_animal(jaws)
-rascal_lake.add_animal(bill)
+rascal_lake.add_animal(slippy)
+# varmint_village.add_animal(burro)
+# varmint_village.add_animal(lil_sebastian)
+# varmint_village.add_animal(billy)
+# varmint_village.add_animal(joe)
+
+
+# slithery_sleuths.add_animal(slippy)
+# slithery_sleuths.add_animal(sloppy)
+# slithery_sleuths.add_animal(slinky)
+# slithery_sleuths.add_animal(sleuthy)
+# slithery_sleuths.add_animal(sneaky)
+
+# rascal_lake.add_animal(charles)
+# rascal_lake.add_animal(bob)
+# rascal_lake.add_animal(gene)
+# rascal_lake.add_animal(jaws)
+# rascal_lake.add_animal(bill)
 
 # for animal in varmint_village.animals:
-#     print(f"You'll find {animal.name}, the {animal.species} in {varmint_village.attraction_name}")
+#     print(animal)
 
 # print('***********')
 
@@ -49,7 +51,7 @@ rascal_lake.add_animal(bill)
 
 # print('***********')
 
-for animal in rascal_lake.animals:
-    print(animal)
+# for animal in rascal_lake.animals:
+#     print(animal)
 
 # print(bob)
